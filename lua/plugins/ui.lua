@@ -302,7 +302,7 @@ return {
 
   { -- show images in nvim!
     '3rd/image.nvim',
-    enabled = true,
+    enabled = false,
     dependencies = {
       {
         'vhyrro/luarocks.nvim',
