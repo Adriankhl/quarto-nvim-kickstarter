@@ -9,7 +9,7 @@ return {
       { 'nvim-telescope/telescope-dap.nvim' },
       {
         'jmbuhr/telescope-zotero.nvim',
-        enabled = true,
+        enabled = false,
         dev = false,
         dependencies = {
           { 'kkharji/sqlite.lua' },
@@ -97,7 +97,6 @@ return {
       telescope.load_extension 'fzf'
       telescope.load_extension 'ui-select'
       telescope.load_extension 'dap'
-      telescope.load_extension 'zotero'
     end,
   },
 
